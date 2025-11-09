@@ -1,5 +1,8 @@
 // src/pages/api/farmers/me/route.js
 
+export const dynamic = 'force-dynamic';
+
+
 import dbConnect from '../../../../utils/dbConnect';
 import Farmer from '../../../../models/Farmer';
 import { decodeToken } from '../../../../utils/tokenUtils'; // Ensure the path is correct

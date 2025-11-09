@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+
+
 import dbConnect from '@/utils/dbConnect';
 import Contract from '@/models/Contract';
 

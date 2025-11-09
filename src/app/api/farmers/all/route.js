@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import dbConnect from '@/utils/dbConnect';
 import Farmer from '@/models/Farmer';
 

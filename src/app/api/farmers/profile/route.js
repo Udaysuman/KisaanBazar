@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+
+
 import dbConnect from '../../../../utils/dbConnect';
 import Farmer from '../../../../models/Farmer'; // Adjust path as necessary
 import jwt from 'jsonwebtoken';

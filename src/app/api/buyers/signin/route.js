@@ -1,4 +1,7 @@
 // src/app/api/buyers/signin/route.js
+export const dynamic = 'force-dynamic';
+
+
 import { NextResponse } from 'next/server';
 import dbConnect from '@/utils/dbConnect';
 import Buyer from '@/models/Buyer';

@@ -1,4 +1,7 @@
 // src/app/api/farmers/signin/route.js
+export const dynamic = 'force-dynamic';
+
+
 import dbConnect from '../../../../utils/dbConnect';
 import Farmer from '../../../../models/Farmer';
 import bcrypt from 'bcryptjs';
